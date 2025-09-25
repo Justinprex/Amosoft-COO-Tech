@@ -1,0 +1,13 @@
+/* Responsive Styles */
+@media (max-width:768px) {
+  .navbar ul {
+    flex-direction:column;
+    background:#222;
+    position:absolute;
+    top:60px;
+    right:0;
+    width:200px;
+    display:none;
+  }
+  .navbar ul.show { display:block; }
+}
